@@ -1,0 +1,54 @@
+/*
+ Theme Name:   Kadence Child
+ Theme URI:    https://example.com/kadence-child/
+ Description:  Kadence Child Theme
+ Author:       Your Name
+ Author URI:   https://example.com
+ Template:     kadence
+ Version:      1.0.2
+ Tags:         customizable, modern, responsive-layout, gutenberg, header builder, footer builder
+ Text Domain:  kadencechild
+*/
+
+/* Theme customization starts here
+-------------------------------------------------------------- */
+.site-branding .site-description {
+    margin: 0;
+}
+
+.single-content ul, .single-content ol{
+    padding-left: 0; 
+}
+ 
+.frm_forms .frm_progress_line input, .frm_forms .frm_progress_line input:disabled {
+    line-height: 5px;
+}
+.with_frm_style .frm_checkbox label, .with_frm_style .frm_radio:not(.frm_image_small) label,
+.with_frm_style .vertical_radio .frm_checkbox label, .with_frm_style .vertical_radio .frm_radio label{
+    background-color: #f5f5f5;
+    padding: 20px;
+    border-radius: 5px;
+    display: block;
+}
+.with_frm_style a.frm_save_draft, .with_frm_style a.frm_start_over {
+    float: right;
+}
+
+ul.total-plans {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    gap: 30px;
+    font-weight: 600;
+    color: var(--global-palette3);
+    font-size: 20px;
+}
+ul.total-plans li {
+    background-color: #f5f5f5;
+    padding: 30px;
+}
+ul.total-plans i {
+    font-weight: 400;
+    font-size: 13px;
+}
